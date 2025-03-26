@@ -11,5 +11,3 @@
 
 1. Dilarang untuk mengubah kode yang terdapat di berkas `index.js` dan `package.json`.
 2. Anda hanya boleh memanfaatkan module `node:test` dan `node:assert`; atau `bun:test` untuk melakukan pengujian.
-
-
