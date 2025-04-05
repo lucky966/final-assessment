@@ -1,3 +1,7 @@
-import { sum } from "./index.js"
-// console.log("test")
-console.log(sum(8, 3))
+import {test} from 'node:test';
+import assert from 'node:assert';
+import { sum } from "./index.js";
+
+test(() => {
+    assert.strictEqual(sum(8,3),11);
+});
